@@ -1,0 +1,145 @@
+
+body {
+    background-color: #fdcc04;
+}
+.search {
+    color: white;
+    background-color: black;
+    outline:  2px solid dimgray;
+    border-radius: 15px;
+    text-align: center;
+    margin: auto;
+    width: 400px;
+    margin-top: 15px;
+}
+input{
+    color: white;
+    background-color: black;
+    border-color: dimgray;
+    border-style: solid;
+    border-radius: 15px;
+
+}
+
+.button {
+    background-color: black;
+    outline:  2px solid dimgray;
+    border-radius: 15px;
+
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.search input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+}
+img.icon{
+    max-height: 25px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    vertical-align: -30%;
+}
+button :hover{
+    cursor: pointer;
+}
+div.button :hover {
+    cursor: pointer;
+    background-color: #181818;
+    border-radius: 15px;
+}
+p {
+    color: white;
+}
+
+div.top_image {
+    display: flex;
+    width: 100%; 
+    margin-bottom: 50px; 
+    border-bottom: 4px dotted yellow;
+}
+
+div.title {
+    text-align: center; 
+    margin-right:auto; 
+    margin-left: auto; 
+    /*width: 500px;*/
+}
+div.book-button {
+    line-height: 60px;
+}
+div.help-button {
+    position:absolute; 
+    right:5px; 
+    width:150px; 
+    height:60px; 
+    line-height: 25px;
+}
+div.settings-button {
+    position:absolute;
+    right:5px;
+    width:150px;
+    height:40px;
+    line-height: 10px;
+    margin-top: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+
+/* Search Results Page: */
+
+nav {
+    height: 80px;
+    background: #fdcc04;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px) / 2);
+    text-align: center;
+    font-weight: bold;
+}
+
+nav a {
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border: none;
+    color: #fdcc04;
+    background: #000;
+    cursor: pointer;
+    border-radius: 25px;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background: #fff;
+    color: #000;
+}
+
+.heading {
+    font-size: 3rem;
+    text-decoration: underline;
+    font-style: italic;
+}
